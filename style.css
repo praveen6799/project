@@ -1,0 +1,80 @@
+.banddescription h3 {
+    text-align: center;
+    padding-top: 80px;
+}
+.banddescription p {
+    text-align: justify;
+}
+.card-text {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.image{
+    max-width: 100%;
+    max-height: 100%;
+}
+.soldout {
+    background-color: rgb(202, 59, 59);
+    padding: 3px;;
+    margin-left: 10px;
+}
+.soldin {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px ;
+    float: right;
+}
+.tourdata {
+    padding-top: 80px;
+}
+.contactdata {
+    padding-top: 80px;
+}
+.cards-wrapper {
+    column-gap: 12px;
+}
+.cardsdescription h5 {
+ font-size: 14px;
+}
+.cardsdescription p{
+    font-size: 11px;
+}
+.form {
+    margin-left: 70px;
+}
+.form input {
+    margin-bottom: 10px;
+} 
+.formbutton {
+    float: right;
+}
+.address p{
+    font-size: 14px;
+}
+.mapimg {
+    max-width: 100%;
+    margin-top: 30px;
+}
+.footercard {
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+.footertext {
+    text-align: center;
+    color: white;
+    padding:10px 0px;
+}
+.modal-header {
+    background-color: aqua;
+
+}
+.modalbutton {
+    font-weight: 500;
+    border: 0px;
+    color: black;
+}
