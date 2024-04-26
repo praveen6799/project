@@ -1,80 +1,97 @@
-.banddescription h3 {
-    text-align: center;
-    padding-top: 80px;
+.banner img{
+   width: 100%;
 }
-.banddescription p {
-    text-align: justify;
+.banner h2 {
+    position: absolute;
+    top: 190px;
+    left: 10%;
+    font-weight: 300;
 }
-.card-text {
-    text-align: center;
-    font-size: 18px;
-    color: black;
-    font-weight: 500;
+.section1 {
+    margin-top: 70px;
 }
-.image{
+.img1 {
     max-width: 100%;
     max-height: 100%;
+    margin-bottom: 70px;
 }
-.soldout {
-    background-color: rgb(202, 59, 59);
-    padding: 3px;;
-    margin-left: 10px;
-}
-.soldin {
-    color: white;
-    background-color: black;
-    padding: 5px;
-    border-radius: 20px ;
-    float: right;
-}
-.tourdata {
-    padding-top: 80px;
-}
-.contactdata {
-    padding-top: 80px;
-}
-.cards-wrapper {
-    column-gap: 12px;
-}
-.cardsdescription h5 {
- font-size: 14px;
-}
-.cardsdescription p{
-    font-size: 11px;
-}
-.form {
-    margin-left: 70px;
-}
-.form input {
-    margin-bottom: 10px;
-} 
-.formbutton {
-    float: right;
-}
-.address p{
-    font-size: 14px;
-}
-.mapimg {
-    max-width: 100%;
-    margin-top: 30px;
-}
-.footercard {
-    background-color: blue;
-    width: 100%;
-    height: 50px;
-    margin-top: 30px;
-}
-.footertext {
+.firsthead {
     text-align: center;
-    color: white;
-    padding:10px 0px;
+    font-weight: 300;
+    padding-top: 20px;
 }
-.modal-header {
-    background-color: aqua;
+.firstdescription{
+    text-align: center;
+    font-weight: 400;
+    padding-top: 40px;
+}
+.firstdescription1  {
+    text-align: justify;
+    padding-top: 10px;
+    line-height: 25px;
+}
+.text-box {
+    float: left;
+}
+.Aboutsection {
+    margin-top: 60px;
+}
+.Our-Menu {
+    text-align: center;
+}
+.menuhead {
+    font-weight: 400;
+    padding-top: 35px;
+}
+.menudescription {
+    font-weight: 200;
+    padding-top: 15px;
+}
+.img2 {
+    padding-bottom: 50px;
 
 }
-.modalbutton {
+.contacthead {
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contactdescription {
+    font-size: 14px;
+    font-weight: 200px;
+    padding-bottom: 20px;
+}
+.contactsecondhead {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(105, 105, 226);
+    padding-bottom: 10px;
+}
+input[type=text], input[type=date]{
+    border:none;
+}
+.footer {
+    width: 100%;
+    height: 60px;
+    margin-top: 60px;
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+.footer h4 {
+    text-align: center;
     font-weight: 500;
-    border: 0px;
-    color: black;
+    font-size: 18px;
+    padding: 19px 0px;
+}
+@media (max-width:650px)
+{
+    .img1 {
+        display: none;
+    }
+}
+@media (max-width:350px){
+    .img2 {
+        padding-top: 50px;
+        max-width: 100%;
+    }
 }
